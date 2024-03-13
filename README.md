@@ -13,7 +13,7 @@ We are building 4 models here.
 
 # Model_1: (Basic Working Model)
 ## Building a basic Model for MNIST Image Classification
-###Targets:
+### Targets:
 Getting the correct set-up
 Adding basic transformers and data loaders
 Setting up basic training and testing loop
@@ -28,11 +28,18 @@ Setting up basic training and testing loop
 * To improve generalization, we will consider techniques like **regularization, dropout in the next model**
 
 # Model_2: (Complexity Reduction Model)
-##Building a simplified model with batch normalization and Regularization
+## Building a simplified model with batch normalization and Regularization
 ### Targets:
 * Making a lighter Model
 * Adding batch normalization to increase accuracy
 * Adding drop-out layer to make the training harder and to improve generalization
+### Result
+* **Total number of parameters**: 10.4 k
+* **Best Training Accuracy**: 99.08%
+* **Best Test Accuracy**: 99.15%
+### Analysis
+* Both training and testing accuracies are very high (more than 99%), which **indicates that the model is capable of learning the patterns** in the data effectively
+* The test accuracy is higher than the testing accuracy --> This high test accuracy indicates that **the model performs well on previously unseen examples**
 
 
 
